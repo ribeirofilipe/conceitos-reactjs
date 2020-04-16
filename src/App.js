@@ -65,7 +65,7 @@ function App() {
         <button 
           type="button" 
           className="add-button" 
-          onClick={handleAddRepository}>ADICIONAR</button>
+          onClick={handleAddRepository}>Adicionar</button>
       </form>
 
       <ul className="repo-list" data-testid="repository-list">
@@ -74,7 +74,7 @@ function App() {
             <p>{repo.title}</p>
 
             <button onClick={() => handleRemoveRepository(repo.id)}>
-              REMOVER
+              Remover
             </button>
           </li>
        ))}
